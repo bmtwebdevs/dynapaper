@@ -22,11 +22,14 @@ namespace BMT.DynaPaper.Web
 
 
             bundles.Add(new ScriptBundle("~/bundles/dynapaper").Include(
-                      "~/Scripts/app/BMT.DynaPaper.js"));
+                "~/Scripts/app/BMT.FontPreloader.js",
+                      "~/Scripts/app/BMT.DynaPaper.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
         }
     }
 }

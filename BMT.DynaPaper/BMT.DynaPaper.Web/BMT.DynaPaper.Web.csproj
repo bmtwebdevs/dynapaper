@@ -132,6 +132,20 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\AlegreyaSans-Black.ttf" />
+    <Content Include="fonts\AlegreyaSans-BlackItalic.ttf" />
+    <Content Include="fonts\AlegreyaSans-Bold.ttf" />
+    <Content Include="fonts\AlegreyaSans-BoldItalic.ttf" />
+    <Content Include="fonts\AlegreyaSans-ExtraBold.ttf" />
+    <Content Include="fonts\AlegreyaSans-ExtraBoldItalic.ttf" />
+    <Content Include="fonts\AlegreyaSans-Italic.ttf" />
+    <Content Include="fonts\AlegreyaSans-Light.ttf" />
+    <Content Include="fonts\AlegreyaSans-LightItalic.ttf" />
+    <Content Include="fonts\AlegreyaSans-Medium.ttf" />
+    <Content Include="fonts\AlegreyaSans-MediumItalic.ttf" />
+    <Content Include="fonts\AlegreyaSans-Regular.ttf" />
+    <Content Include="fonts\AlegreyaSans-Thin.ttf" />
+    <Content Include="fonts\AlegreyaSans-ThinItalic.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -157,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\app\BMT.DynaPaper.ts" />
+    <TypeScriptCompile Include="Scripts\app\BMT.FontPreloader.ts" />
     <TypeScriptCompile Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
