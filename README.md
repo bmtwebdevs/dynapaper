@@ -1,0 +1,4 @@
+dynapaper
+=========
+
+Dynamic wallpaper generator
